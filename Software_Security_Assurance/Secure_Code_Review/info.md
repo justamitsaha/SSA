@@ -1084,3 +1084,44 @@ Also we can see line number 7 and 13 where data is being displayed through datab
 -   For all other projects, it is recommended to review code for critical components of the system
     
 -   For BPO, Infrastructure maintenance & Assurance projects, which are not dealing with source code, Security Code Review is not applicable
+
+
+##### Scope & Ownership
+
+### What to review on priority
+
+-   Critical components
+    
+-   Reusable code
+    
+-   Interface code
+    
+
+### When to review code for security
+
+-   Initial prototype
+    
+-   Before major release & production release
+    
+-   When application code is stable
+    
+
+### Who to review code for security
+
+-   Technical architects
+    
+-   Developers
+
+
+
+##### The Next Step
+
+**Project manager:**  Update effort and bug matrix. Prioritize the defect closure
+
+**Design team:**  Update design document and architectural / library components
+
+**Development team:**  Remediate the defects
+
+**Security team:**  Approve remediation for critical defects
+
+**Code Review team:**  Identify patterns that can be tested through automated reviews
